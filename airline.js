@@ -345,14 +345,41 @@ function handleChange(selectedOption) {
     
     if (selectedOption === 'johannesburg') {
         travelContext0()
+        observer()
     }
     else if(selectedOption === 'southAfrica') {
         travelContext3()
+        observer()
     }
     else if(selectedOption === 'nelspruit') {
         travelContext2()
+        observer()
     }
     else if(selectedOption === 'capeTown') {
         travelContext1()
+        observer()
     }
 }
+function observer() {
+
+const imageCard = document.querySelectorAll('.imageCard')
+const destinationObserver = new IntersectionObserver( entries => {
+    
+    entries.forEach( (entry) => {
+        entry.target.classList.toggle('show', entry.isIntersecting)
+        if(entry.isIntersecting) {
+            destinationObserver.unobserve(entry.target)
+        }
+    })
+},{
+    threshold: .3,
+})
+
+imageCard.forEach( (card) => {
+    destinationObserver.observe(card)
+})
+
+}
+observer()
+
+                  
