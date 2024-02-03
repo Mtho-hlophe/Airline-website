@@ -1,0 +1,582 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: whitesmoke;
+    padding: 0;
+    margin: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    background-color: white;
+}
+header img {
+    width: 70px;
+    height: 50px;   
+}
+
+#section1 .div1 {
+    background-image: url('images - 2024-02-02T121736.256.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 505px;    
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+#section1 .div2 {
+    color: white;
+    padding-top: 10%;
+}
+#section1 .div2 h2 {
+    padding: 30px 0px 20px 0px;
+    font-size: 4rem;
+    transform: scaleY(2);   
+}
+#section1 .div2 p {
+    padding: 15px 0px 10px 40%;
+    font-size: 1.5rem;
+    transform: scaleY(2);   
+}
+#section1 .div2 button {
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    margin: 20px 0px 10px 45%;
+    border-radius: 5px;
+}
+#section1 .div3 {
+    height: 250px;
+    width: 80%;
+    margin: 10px 10%;
+    background-color: azure;
+    cursor: pointer;
+    box-shadow: 3px 3px 15px grey;
+}
+#section1 .div3 .navTab {
+    width: 25%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    border-right: 1px solid grey;
+}
+#section1 .div3 .navTab:hover {
+    border-bottom: 2px solid blue;
+}
+#section1 .div3 .navTab img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+#section1 .div3 .miniContainer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: flex-end; 
+}
+#section1 .div3 .childContainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+#section1 .div3 .childContainer input{
+    padding: 15px 10px;
+    width: 25%;
+    margin-right: 10%;
+    border: 2px solid grey;
+    border-radius: 10px;   
+}
+#section1 .div3 .childContainer button {
+    padding: 15px 15px;
+    background: blue;
+    border-radius: 10px;
+    color: white;
+}
+#section1 .div3 .checkIn {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+#section1 .div3 .checkIn input {
+    width: 20%;
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 15px 10px;
+}
+#section1 .div3 .checkIn button {
+    width: 20%;
+    padding: 15px 15px;
+    background: blue;
+    border-radius: 10px;
+    color: white;
+}
+#section1 .flightOptions {
+    height: 100px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10%;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 3px 3px 15px grey;
+    border-right: none;
+}
+#section1 .flightOptions div {
+    width: 14%;
+    height: 100%;
+    border-right: 1px solid grey;
+    text-align: center;
+}
+#section1 .flightOptions div img {
+    height: 50%;
+    width: 50%;
+    margin-left: ;
+}
+#section1 .flightOptions div p {
+    font-size: 1rem;
+    margin: 
+}
+#section2 .div1 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+#section2 .div1 select {
+    border: none;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+}
+#section2 {
+    padding: 0px 10%;
+}
+#section2 .imagesContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+#section2 .div1 select option {
+    background-color: grey;
+}
+#section2 .imageCard {
+    font-family: 'Epilogue', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Slabo 27px', serif;
+    font-family: 'Vollkorn', serif;
+    text-align: center;
+    width: 25%;
+    height: 300px;
+    overflow: scroll;
+    box-shadow: 3px 3px 12px grey;
+    animation: display 2s;
+}
+@keyframes display {
+    from{opacity: .2;
+         width: 10%;}
+    to {opacity: 1;
+        width: 25%;}
+}
+#section2 .imageCard  img {
+    width: 100%;
+    height: 60%;
+    cursor: pointer;
+}
+#section2 .imageCard #location {
+    font-weight: 600;
+    color: grey;
+}
+#section2 button {
+    padding: 15px;
+    color: Black;
+    font-weight: 600px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 30px;
+}
+#section3 .div1 {
+    background-image: url('images - 2024-02-02T223311.830.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 400px;    
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Vollkorn', serif;
+}
+#section3 .div1 h2 {
+    color: white;
+    transform: scaleY(3);
+}
+#section3 .div2 {
+    font-family: 'Vollkorn', serif;
+    text-align: center;
+}
+#section3 .div3 {
+    margin: 10px 15%;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+#section3 .div3 .bigImage {
+    background-image: url('images - 2024-02-02T232111.927.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 400px;    
+    width: 62%;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+#section3 .div3 .smallImage {
+    background-image: url('images - 2024-02-02T232339.399.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 190px;    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+#section3 .div3 .smallImage2 {
+    background-image: url('images - 2024-02-02T232314.461.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 190px;    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+#section3 .smallImage3 {
+    background-image: url('images - 2024-02-02T232406.151.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 190px;    
+    width: 35%;
+    text-align: center;    
+    margin: 10px 0px 10px 15%;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+#section3 .smallImage4 {
+    background-image: url('images - 2024-02-02T232213.017.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 190px;    
+    width: 34%;
+    text-align: center;
+    margin: 10px 15% 10px 0px; 
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+#section4 {
+    text-align: center;
+}
+#section4 h1 {
+    margin: 40px 0px 20px 0px;
+}
+#section4 div {
+    padding: 15px 25px;
+    background-color: aliceblue;
+    margin: 2px 15%;
+    cursor: pointer;
+}
+#section4 div:hover {
+    background-color: blue;
+}
+#section3 .p1 {
+    font-size: 2rem;
+    font-weight: 600px;
+    transform: scaleY(2);
+    color: white;
+    font-family: 'Vollkorn', serif;
+}
+footer {
+    background: linear-gradient(45deg, black, grey);
+    width: 100%;
+    color: #eaffff;   
+    margin-left: 0%;
+    text-align: center;
+}
+footer .list{
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+}
+footer .div1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+footer .social-links img{
+    width: 50px;
+    height: 50px;
+    margin: 8px;
+}
+footer .social-links {
+    margin-bottom: 40px;
+}
+#logo {
+    width: 400px; 
+    height:70px;
+}
+#section2 .div1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+
+/* ---------------------- */
+
+@media( max-width: 540px){
+
+
+#logo {
+    width: 160px;
+    height: 40px;
+}
+header img {
+    width: 50px;
+    height: 30px;   
+}
+#section1 .div2 h2 {
+    padding: 30px 0px 30px 0px;
+    font-size: 1.2rem;   
+}
+#section1 .div2 p {
+    padding: 10px 0px 10px 20%;
+    font-size: 1rem;
+    transform: scaleY(2);   
+}
+#section1 .div1 {
+    height: 300px;
+}  
+#section1 .div2 h2 {
+    padding: 10px 0px 10px 0px;
+    font-size: 1rem;
+    transform: scaleY(2);   
+}
+#section1 .div2 p {
+    padding: 5px 0px 5px 40%;
+    font-size: 1rem;
+    transform: scaleY(2);   
+}
+#section1 .div2 button {
+    margin-top: 10px;
+    padding: 4px;
+}
+#section1 .div3 {
+    height: 180px;
+    margin: 0px;
+    width: 100%;
+}
+#section1 .div3 .navTab img {
+    width: 15px;
+    height: 15px;
+}
+#section1 .div3 .navTab {
+    height: 50px;
+}
+
+#section1 .flightOptions {
+    height: 80px;
+}
+#section1 .div3 .navTab p {
+    font-size: .8rem;
+}
+#section1 .flightOptions div p {
+    font-size: .8rem;
+}
+#section1 .flightOptions {
+    margin: 10px 3%;
+    width: 94%;
+}
+#section2 .imageCard {
+    height: 300px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+    animation: display1 2s;
+}
+#section2 .imagesContainer {
+    flex-direction: column;
+    
+}
+@keyframes display1 {
+    from{opacity: .2;
+         width: 50%;}
+    to {opacity: 1;
+        width: 100%;}
+}
+#section3 .div2 {
+    margin: 10px;
+}
+#section3 .div2 h1 {
+    color: gray;
+}
+#section3 .div3 {
+    margin: 10px 20%;
+    width: 60%;
+    flex-direction: column;
+}
+#section3 .div3 .bigImage {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+}
+#section3 .div3 .smallImage  {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 12px grey;
+}
+#section3 .div3 .smallImage2 {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 12px grey;
+}
+#section3  .smallImage3 {
+    height: 200px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 12px grey;
+}
+#section3 .smallImage4 {
+    height: 200px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 12px grey;
+}
+#section3 .p1 {
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+}
+
+/* ----------+--------- */
+
+
+@media( max-width: 900px) and ( min-width: 541px){
+
+
+#logo {
+    width: 200px;
+    height: 50px;
+}
+header img {
+    width: 50px;
+    height: 40px;   
+}
+#section1 .div1 {
+    height: 300px;
+}  
+#section1 .div2 h2 {
+    padding: 10px 0px 10px 0px;
+    font-size: 2rem;
+    transform: scaleY(2);   
+}
+#section1 .div2 p {
+    padding: 5px 0px 5px 40%;
+    font-size: 1rem;
+    transform: scaleY(2);   
+}
+#section1 .div2 button {
+    margin-top: 10px;
+}
+#section1 .div3 {
+    height: 180px;
+    margin: 0px;
+    width: 100%;
+}
+#section1 .div3 .navTab img {
+    width: 15px;
+    height: 15px;
+}
+#section1 .div3 .navTab {
+    height: 50px;
+}
+
+#section1 .flightOptions {
+    height: 80px;
+}
+#section1 .div3 .navTab p {
+    font-size: .8rem;
+}
+#section1 .flightOptions div p {
+    font-size: .8rem;
+}
+#section1 .flightOptions {
+    margin: 10px 3%;
+    width: 94%;
+}
+#section2 .imageCard {
+    height: 300px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+    animation: display1 2s;
+}
+#section2 .imagesContainer {
+    flex-direction: column;
+    
+}
+@keyframes display1 {
+    from{opacity: .2;
+         width: 50%;}
+    to {opacity: 1;
+        width: 100%;}
+}
+#section3 .div2 {
+    margin: 10px;
+}
+#section3 .div2 h1 {
+    color: gray;
+}
+#section3 .div3 {
+    margin: 10px 20%;
+    width: 60%;
+    flex-direction: column;
+}
+#section3 .div3 .bigImage {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+}
+#section3 .div3 .smallImage  {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 12px grey;
+}
+#section3 .div3 .smallImage2 {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 12px grey;
+}
+#section3  .smallImage3 {
+    height: 200px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 12px grey;
+}
+#section3 .smallImage4 {
+    height: 200px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 12px grey;
+}
+#section3 .p1 {
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+}
+
