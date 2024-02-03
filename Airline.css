@@ -383,6 +383,7 @@ header img {
 }
 #section1 .div3 .navTab {
     height: 50px;
+    border-bottom: 1px solid grey;
 }
 
 #section1 .flightOptions {
