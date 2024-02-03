@@ -346,15 +346,6 @@ header img {
     width: 50px;
     height: 30px;   
 }
-#section1 .div2 h2 {
-    padding: 30px 0px 30px 0px;
-    font-size: 1.2rem;   
-}
-#section1 .div2 p {
-    padding: 10px 0px 10px 20%;
-    font-size: 1rem;
-    transform: scaleY(2);   
-}
 #section1 .div1 {
     height: 300px;
 }  
@@ -385,7 +376,6 @@ header img {
     height: 50px;
     border-bottom: 1px solid grey;
 }
-
 #section1 .flightOptions {
     height: 80px;
 }
@@ -403,12 +393,10 @@ header img {
     height: 300px;
     width: 100%;
     margin-top: 10px;
-    border-radius: 5px;
-    
+    border-radius: 5px;    
 }
 #section2 .imagesContainer {
-    flex-direction: column;
-    
+    flex-direction: column;    
 }
 #section3 .div2 {
     margin: 10px;
