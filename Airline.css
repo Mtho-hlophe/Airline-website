@@ -134,6 +134,9 @@ header img {
     border-right: 1px solid grey;
     text-align: center;
 }
+#section1 .flightOptions div a {
+    color: black;
+}
 #section1 .flightOptions div img {
     height: 50%;
     width: 50%;
