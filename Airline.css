@@ -352,7 +352,10 @@ header img {
 }
 #section1 .div1 {
     height: 450px;
-} 
+}
+#section1 .div2 button {
+    margin-top: 100px;
+}
 #section1 .div2 h2 {
   font-size: .85rem;  
 }
