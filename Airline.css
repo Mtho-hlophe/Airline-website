@@ -73,11 +73,13 @@ body {
 }
 header {
     background-color: white;
-}
-header div {
     position: fixed;
     padding: 0px 30px;
     width: 100%;
+}
+header div {
+    display: flex;
+    justify-content:space-between;
 }
 header img {
     width: 70px;
