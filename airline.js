@@ -712,6 +712,8 @@ window.addEventListener('load', () => {
     var loader = document.querySelector('#pageLoader')
         loader.style.display = 'none'
 })
+var loader = document.querySelector('#pageLoader')
+        loader.style.display = 'none'
 
 function nineInputBoxes() {
 
