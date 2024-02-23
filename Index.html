@@ -10,6 +10,26 @@
     <title>Hlophe Airline</title>
 </head>
 <body>
+
+    <div id="pageLoader">                               
+        <img id="loaderLogo" src="IMG_20240202_141950.jpg" >                           
+        <img id="img" src="plane.png">          
+    </div>
+    <div id="menu">
+        <img id="closeMenuBt" src="exit-full-screen.png" alt="">
+        <ul>
+            <a href="#about"><li>About us</li></a>
+            <li>Our services</li>
+            <a href="bookhotel.html"><li>Book hotel</li></a>
+            <a href="carRent.html"><li>Car rental</li></a>
+            <a href="driver.html"><li>Find driver</li></a>
+            <a href="tours.html"><li>Vacation</li></a>
+            <a href=""><li>Visit country</li></a>
+            <a href=""><li>Flights</li></a>
+            <a href=""><li>Meet people</li></a>
+        </ul>
+    </div>
+    
     <header>
         <div style="display:flex; justify-content: space-between;">
             <div><a href="index.html"><img id="logo" src="IMG_20240202_141950.jpg" alt=""></a></div>
@@ -29,25 +49,28 @@
         
         <div class="div3">
             <div style="display:flex;">
-                <div onclick="bookingInfo0()" class="navTab 0" id="0">
+                <div onclick="bookingInfo0(), oneInputBoxes()" class="navTab 0" id="0">
                     <img src="plane.png" alt="">
                     <p>Search Flight</p>
                 </div>
-                <div onclick="bookingInfo1()" class="navTab 1" id="1">
+                <div onclick="bookingInfo1(), threeInputBoxes()" class="navTab 1" id="1">
                     <img src="price-tag.png" alt="">
                     <p>Check In</p>
                 </div>
-                <div onclick="bookingInfo2()" class="navTab" id="2">
+                <div onclick="bookingInfo2(), sixInputBoxes()" class="navTab" id="2">
                     <img src="ticket-flight.png" alt="">
                     <p>Your flight package</p>
                 </div>
-                <div onclick="bookingInfo3()" class="navTab" id="3">
+                <div onclick="bookingInfo3(), nineInputBoxes()" class="navTab" id="3">
                     <img src="time.png" alt="">
                     <p>Flight status</p>
                 </div>
             </div>
+            
             <div class="miniContainer">               
             </div>
+            <div id="errorInfoDiv"></div>
+            
         </div>
         
         <div class="flightOptions">
@@ -155,55 +178,55 @@
     <footer>
         <div class="div1">
         <div class="list">
-            <h2>Our products</h2>
+            <h2>Hlophe services</h2>
             <ul>
-                <li>saving account</li>
-                <li>credit card</li>
-                <li>loans</li>
-                <li>investment plans</li>
-                <li>retirement plans</li>
-                <li>funeral cover</li>
-                <li>personal saving</li>
-                <li>Business ventures</li>
+                <li>Long voyage flights</li>
+                <li>Private flights</li>
+                <li>Economy travel</li>
+                <li>Premium economy</li>
+                <li>Business class</li>
+                <li>First class commute</li>
+                <li>Online booking</li>
+                <li>Personalised caretaking</li>
             </ul>
         </div>
         <div class="list">
-            <h2>Our products</h2>
+            <h2>Flights products</h2>
             <ul>
-                <li>saving account</li>
-                <li>credit card</li>
-                <li>loans</li>
-                <li>investment plans</li>
-                <li>retirement plans</li>
-                <li>funeral cover</li>
-                <li>personal saving</li>
-                <li>Business ventures</li>
+                <li>Vehicle rental</li>
+                <li>Self services</li>
+                <li>Vacations plans</li>
+                <li>24 hours availability</li>
+                <li>Customized phone calls</li>
+                <li>Now iam just adding stuff</li>
+                <li>Personalised experience</li>
+                <li>Great stay</li>
             </ul>
         </div>
         <div class="list">
-            <h2>Our products</h2>
+            <h2>Hlophe services</h2>
             <ul>
-                <li>saving account</li>
-                <li>credit card</li>
-                <li>loans</li>
-                <li>investment plans</li>
-                <li>retirement plans</li>
-                <li>funeral cover</li>
-                <li>personal saving</li>
-                <li>Business ventures</li>
+                <li>Long voyage flights</li>
+                <li>Private flights</li>
+                <li>Economy travel</li>
+                <li>Premium economy</li>
+                <li>Business class</li>
+                <li>First class commute</li>
+                <li>Online booking</li>
+                <li>Personalised caretaking</li>
             </ul>
         </div>
         <div class="list">
-            <h2>Our products</h2>
+            <h2>Flights products</h2>
             <ul>
-                <li>saving account</li>
-                <li>credit card</li>
-                <li>loans</li>
-                <li>investment plans</li>
-                <li>retirement plans</li>
-                <li>funeral cover</li>
-                <li>personal saving</li>
-                <li>Business ventures</li>
+                <li>Vehicle rental</li>
+                <li>Self services</li>
+                <li>Vacations plans</li>
+                <li>24 hours availability</li>
+                <li>Customized phone calls</li>
+                <li>Now iam just adding stuff</li>
+                <li>Personalised experience</li>
+                <li>Great stay</li>
             </ul>
         </div>
         </div>
