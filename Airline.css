@@ -72,9 +72,11 @@ body {
     font-size: 1.3rem;
 }
 header {
+    background-color: white;
+}
+header div {
     position: fixed;
     padding: 0px 30px;
-    background-color: white;
     width: 100%;
 }
 header img {
