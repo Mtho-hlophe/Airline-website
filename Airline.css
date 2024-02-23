@@ -340,7 +340,7 @@ header img {
 #section3 .div3-2 {
     display: flex;
     justify-content:space-between;
-    gap: 15%;
+    gap: 15px;
 }
 #section3 .div3 .bigImage {
     background-image: url('images - 2024-02-02T232111.927.jpeg');
@@ -586,9 +586,10 @@ header img {
     width: 90%;
     flex-direction: column;
 }
-    #section3 .div3-2 { 
+#section3 .div3-2 { 
     flex-wrap: wrap;
-    }
+    margin: 0px 5%;
+}
 #section3 .div3 .bigImage {
     width: 100%;
     height: 300px;
