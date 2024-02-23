@@ -815,7 +815,9 @@ flightPaths.innerHTML = ''
 
 window.addEventListener('load', () => {
     var loader = document.querySelector('#pageLoader')
-        loader.style.display = 'none'
+       setTimeout( () => {
+          loader.style.display = 'none'
+       },2000) 
 }) 
 //---------------------------------------------------
 
