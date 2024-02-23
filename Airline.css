@@ -328,19 +328,26 @@ header img {
 #section3 .div2 {
     font-family: 'Vollkorn', serif;
     text-align: center;
+    margin: 50px;
 }
 #section3 .div3 {
     margin: 10px 15%;
-    width: 70%;
+    width: 80%;
     display: flex;
+    gap: 15px;
     justify-content: space-between;
+}
+#section3 .div3-2 {
+    display: flex;
+    justify-content:space-between;
+    gap: 15%;
 }
 #section3 .div3 .bigImage {
     background-image: url('images - 2024-02-02T232111.927.jpeg');
     background-position: center;
     background-size: cover;
-    height: 400px;    
-    width: 62%;
+    height: 500px;    
+    width: 80%;
     display: flex;
     align-items: center;
     border-radius: 5px;
@@ -349,7 +356,7 @@ header img {
     background-image: url('images - 2024-02-02T232339.399.jpeg');
     background-position: center;
     background-size: cover;
-    height: 190px;    
+    height: 240px;    
     width: 100%;
     display: flex;
     align-items: center;
@@ -359,7 +366,7 @@ header img {
     background-image: url('images - 2024-02-02T232314.461.jpeg');
     background-position: center;
     background-size: cover;
-    height: 190px;    
+    height: 240px;    
     width: 100%;
     display: flex;
     align-items: center;
@@ -369,10 +376,10 @@ header img {
     background-image: url('images - 2024-02-02T232406.151.jpeg');
     background-position: center;
     background-size: cover;
-    height: 190px;    
-    width: 35%;
+    height: 300px;    
+    width: 100%;
     text-align: center;    
-    margin: 10px 0px 10px 15%;
+    margin: 10px 0px 10px 5%;
     display: flex;
     align-items: center;
     border-radius: 5px;
@@ -381,10 +388,10 @@ header img {
     background-image: url('images - 2024-02-02T232213.017.jpeg');
     background-position: center;
     background-size: cover;
-    height: 190px;    
-    width: 34%;
+    height: 300px;    
+    width: 100%;
     text-align: center;
-    margin: 10px 15% 10px 0px; 
+    margin: 10px 5% 10px 0px; 
     display: flex;
     align-items: center;
     border-radius: 5px;
@@ -569,16 +576,19 @@ header img {
     flex-direction: column;    
 }
 #section3 .div2 {
-    margin: 10px;
+    margin: 30px;
 }
 #section3 .div2 h1 {
     color: gray;
 }
 #section3 .div3 {
-    margin: 10px 20%;
-    width: 60%;
+    margin: 10px 5%;
+    width: 90%;
     flex-direction: column;
 }
+    #section3 .div3-2 { 
+    flex-wrap: wrap;
+    }
 #section3 .div3 .bigImage {
     width: 100%;
     height: 300px;
@@ -597,13 +607,13 @@ header img {
     box-shadow: 3px 3px 12px grey;
 }
 #section3  .smallImage3 {
-    height: 200px;
-    margin-bottom: 10px;
+    height: 220px;
+    margin: 10px 0px 10px 0%;
     box-shadow: 3px 3px 12px grey;
 }
 #section3 .smallImage4 {
-    height: 200px;
-    margin-bottom: 10px;
+    height: 220px;
+    margin: 10px 0px 10px 0%;
     box-shadow: 3px 3px 12px grey;
 }
 #section3 .p1 {
