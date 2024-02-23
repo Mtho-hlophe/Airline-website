@@ -1,0 +1,39 @@
+{
+    "locations": ["Nelspruit", "Johannesburg",
+                  "Nelspruit ", "Johannesburg ",
+                  "nelspruit", "johannesburg",
+                  "Durban", "Durban ", "durban",
+                  "Cape town", "Cape Town",
+                  "Cape town ", "Cape Town ",
+                  "Pretoria", "pretoria",
+                  "Pretoria ", "pretoria ",
+                  "Kempton park ", "kempton park ",
+                  "Kempton park", "kempton park",
+                  "New York", "new york", "New york",
+                  "Washington DC", "washington dc",
+                  "California", "california",
+                  "Miami", "miami", "New Jersey",
+                  "new jersey", "Seattle", "seattle",
+                  "Detroit", "detroit", "New jersey",
+                  "Chicago", "chicago",
+                  "Texas", "texas", "Washington dc",
+                  "New York ", "new york ", "New york ",
+                  "Washington DC ", "washington dc ",
+                  "California ", "california ",
+                  "Miami ", "miami ", "New Jersey ",
+                  "new jersey ", "Seattle ", "seattle ",
+                  "Detroit ", "detroit ", "New jersey ",
+                  "Chicago ", "chicago ",
+                  "Texas ", "texas ", "Washington dc "
+                 ],
+                   
+    "names": ["John", "john", "John ",
+              "Bill", "bill", "Bill ",
+              "Karen", "karen", "karen "
+             ],
+             
+    "bookingCode": ["123karenf", "123billm",
+                    "123johnm"
+                   ]
+                    
+}
