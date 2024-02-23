@@ -376,27 +376,6 @@ function handleChange(selectedOption) {
         observer()
     }
 }
-function observer() {
-
-const imageCard = document.querySelectorAll('.imageCard')
-const destinationObserver = new IntersectionObserver( entries => {
-    
-    entries.forEach( (entry) => {
-        entry.target.classList.toggle('show', entry.isIntersecting)
-        if(entry.isIntersecting) {
-            destinationObserver.unobserve(entry.target)
-        }
-    })
-},{
-    threshold: .3,
-})
-
-imageCard.forEach( (card) => {
-    destinationObserver.observe(card)
-})
-
-}
-observer()
 
 let flightPaths = document.querySelector('#flightPaths')
 let errorNotification = document.querySelector('#errorInfoDiv')
@@ -529,11 +508,11 @@ function displayFlights() {
         //console.error(`Just insert what's needed so we can move forward, that's what the website would really appreciate. `+ error)
     }    
     
-}
-    
+}    
 }
 
 function threeInputBoxes() {
+
 
 errorNotification.innerHTML = ''
 flightPaths.style.display = 'none'
@@ -644,6 +623,32 @@ function displayBooking() {
     }
 }
 }
+window.addEventListener('load', () => {
+    var loader = document.querySelector('#pageLoader')
+        loader.style.display = 'none'
+})
+
+function observer() {
+
+const imageCard = document.querySelectorAll('.imageCard')
+const destinationObserver = new IntersectionObserver( entries => {
+    
+    entries.forEach( (entry) => {
+        entry.target.classList.toggle('show', entry.isIntersecting)
+        if(entry.isIntersecting) {
+            destinationObserver.unobserve(entry.target)
+        }
+    })
+},{
+    threshold: .3,
+})
+
+imageCard.forEach( (card) => {
+    destinationObserver.observe(card)
+})
+
+}
+observer()
 
 function sixInputBoxes() {
 
@@ -707,13 +712,6 @@ flightPaths.innerHTML = ''
     }
 }    
 }
-
-window.addEventListener('load', () => {
-    var loader = document.querySelector('#pageLoader')
-        loader.style.display = 'none'
-})
-var loader = document.querySelector('#pageLoader')
-        loader.style.display = 'none'
 
 function nineInputBoxes() {
 
