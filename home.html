@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="template.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue&family=Manrope:wght@500&family=Slabo+27px&family=Vollkorn&display=swap" rel="stylesheet">
+    <title>Hlophe Airline</title>
+</head>
+<body> 
+   <!-- --------------------- -->
+    <div id="pageLoader">                               
+        <img id="loaderLogo" src="IMG_20240202_141950.jpg" >                           
+        <img id="img" src="plane.png">          
+    </div>
+    <div id="menu">
+        <img id="closeMenuBt" src="exit-full-screen.png" alt="">
+        <ul>
+            <a href="#about"><li>About us</li></a>
+            <li>Our services</li>
+            <a href="bookhotel.html"><li>Book hotel</li></a>
+            <a href="carRent.html"><li>Car rental</li></a>
+            <a href="driver.html"><li>Find driver</li></a>
+            <a href="tours.html"><li>Vacation</li></a>
+            <a href=""><li>Visit country</li></a>
+            <a href=""><li>Flights</li></a>
+            <a href=""><li>Meet people</li></a>
+        </ul>
+    </div>
+   <!-- --------------------- -->
+    <header>
+        <div><a href="index.html"><img id="logo" src="IMG_20240202_141950.jpg" alt=""></a></div>
+        <img id="menuIcon" src="bars-staggered.png">
+    </header>
+    <section id="section1">
+        <div class="div1"></div>
+        <div class="div2">
+            <h1><i>World class Arline</i></h1>
+            <h2><i>95% rated Comfortability</i></h2>
+            <p><i>Arrive seemingly at ease</i></p>
+            <button>Learn More</button>
+        </div>
+        <div class="div3">
+            <div style="display:flex;">
+         <!-- added functions calls below---- -->
+                <div onclick="bookingInfo0(), oneInputBoxes()" class="navTab 0" id="0">
+                    <img src="plane.png" alt="">
+                    <p>Search Flight</p>
+                </div>
+    
+                <div onclick="bookingInfo1(), threeInputBoxes()" class="navTab 1" id="1">
+                    <img src="price-tag.png" alt="">
+                    <p>Check In</p>
+                </div>
+                <div onclick="bookingInfo2(), sixInputBoxes()" class="navTab" id="2">
+                    <img src="ticket-flight.png" alt="">
+                    <p>Your flight package</p>
+                </div>
+                <div onclick="bookingInfo3(), nineInputBoxes()" class="navTab" id="3">
+                    <img src="time.png" alt="">
+                    <p>Flight status</p>
+                </div>
+             </div>
+             
+             <div class="miniContainer"></div>
+        <!-- ---------------------- -->           
+             <div id="errorInfoDiv"></div>                                    
+        <!-- ---------------------- -->
+        </div>   
+        <div id="flightPaths"></div>                                
+           <div class="flightOptions">
+            
+            <div style="text:align;">
+               <a href="bookhotel.html"> 
+                 <img src="hotel.png" alt="">
+                 <p>Book hotel</p>
+               </a>
+             </div>              
+             
+             <div style="text:align;">
+               <a href="carRent.html">
+                  <img src="car-rent.png" alt="">               
+                  <p>Car rent</p>
+                </a>
+             </div>  
+                          
+             <div style="text:align;">
+               <a href="tours.html">
+                <img src="tourism.png" alt="">
+                <p>Visit country</p>
+               </a>
+             </div> 
+                         
+             <div style="text:align;">
+               <a href="driver.html">
+                 <img src="chauffeur.png" alt="">
+                 <p>find driver</p>
+               </a>
+             </div> 
+                        
+             <div style="text:align;">
+               <a href="">
+                 <img src="sunbed.png" alt="">
+                 <p>Vacation</p>
+               </a>
+             </div>  
+                          
+             <div style="text:align;">
+                <a href="">
+                  <img src="ticket-flight.png" alt="">
+                  <p>Flight</p>
+                </a>
+             </div> 
+                        
+              <div style="text:align;">
+                <a href="">
+                  <img src="meeting.png" alt="">
+                  <p>Meet people</p>
+                 </a>
+               </div>             
+                         
+        </div>
+    </section>
+    
+    
+    <section id="section2">
+        <div class="div1">
+            <h3>Featured destination from:</h3>
+            <select onchange="handleChange(this.value)">
+                <option value="johannesburg">Johannesburg</option>
+                <option value="capeTown">Cape Town</option>
+                <option value="nelspruit">Nelspruit</option>
+                <option value="southAfrica">southAfrica</option>
+            </select>
+        </div>
+        <div class="travelContext">            
+        </div>
+        <button onclick="travelContext3(), observer()">Show more destinations</button>
+    </section>
+    
+    <section id="section3">
+        <div class="div1">
+            <h2>We value your safety and experience</h2>
+        </div>
+        <div class="div2">
+            <p>Hlophe flights</p>
+            <h1>Here's how to enjoy your Travel</h1>
+            <p><i>browse our flights category</i></p> 
+        </div>
+        <div class="div3">
+            <div class="bigImage"><p class="p1">First class</p></div>
+            <div style=" width: 100%;">
+                <div class="smallImage"><p class="p1">Business class</p></div>
+                <br>
+                <div class="smallImage2"><p class="p1">Premium class</p></div>
+            </div>
+        </div>
+        <div style="display: flex; justify-content:space-between;">
+           <div class="smallImage3"><p class="p1">Economy</p></div>
+           <div class="smallImage4"><p class="p1">Premium Economy</p></div>
+        </div>        
+    </section>
+    
+    
+    <section id="section4">
+        <h1>About us</h1>
+        <div><p>Our mission</p></div>
+        <div><p>Our business</p></div>
+        <div><p>History</p></div>
+    </section>
+        
+    
+    <footer>
+        <div class="div1">
+        <div class="list">
+            <h2>Our products</h2>
+            <ul>
+                <li>saving account</li>
+                <li>credit card</li>
+                <li>loans</li>
+                <li>investment plans</li>
+                <li>retirement plans</li>
+                <li>funeral cover</li>
+                <li>personal saving</li>
+                <li>Business ventures</li>
+            </ul>
+        </div>
+        <div class="list">
+            <h2>Our products</h2>
+            <ul>
+                <li>saving account</li>
+                <li>credit card</li>
+                <li>loans</li>
+                <li>investment plans</li>
+                <li>retirement plans</li>
+                <li>funeral cover</li>
+                <li>personal saving</li>
+                <li>Business ventures</li>
+            </ul>
+        </div>
+        <div class="list">
+            <h2>Our products</h2>
+            <ul>
+                <li>saving account</li>
+                <li>credit card</li>
+                <li>loans</li>
+                <li>investment plans</li>
+                <li>retirement plans</li>
+                <li>funeral cover</li>
+                <li>personal saving</li>
+                <li>Business ventures</li>
+            </ul>
+        </div>
+        <div class="list">
+            <h2>Our products</h2>
+            <ul>
+                <li>saving account</li>
+                <li>credit card</li>
+                <li>loans</li>
+                <li>investment plans</li>
+                <li>retirement plans</li>
+                <li>funeral cover</li>
+                <li>personal saving</li>
+                <li>Business ventures</li>
+            </ul>
+        </div>
+        </div>
+        <br>
+        <h1 style="color:white; padding:20px;">Contact us</h1>
+        
+        <div style="text-align:left;"><img style="width: 200px; height:70px;"src="IMG_20240202_141950.jpg" alt=""></div>
+        <div style="text-align: left; margin:20px; color: white;">
+            <h1>Address</h1>
+            <br>
+            <h3>Headquarters</h3>
+            <br>
+            <p>Gauteng Province</p>
+            <p>Johannesburg</p>
+            <p>braamfontein</p>
+            <br>
+            <p>1173 Joubert street</p>
+            <p>2001</p>
+        </div>
+        <div class="social-links">
+            <p>Tel: (+27) 11-4628-653</p>
+            <a href=""><img src="2062095_application_chat_communication_logo_whatsapp_icon.svg.png" ></a>
+            <a href=""><img src="Facebook_Logo_2023.png" alt=""></a>
+            <a href=""><img src="X_logo_2023_(white).png" alt=""></a>
+        </div>
+        <div style="padding-bottom:20px; color:white;">
+            <p>©<span id="copyrightYear"></span> website created by Mtho-hlophe</p>
+            
+        </div>
+    </footer>
+    
+    <script src="airline2.js"></script>
+</body>
+</html>
