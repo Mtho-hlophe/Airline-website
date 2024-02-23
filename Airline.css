@@ -74,10 +74,11 @@ body {
 header {
     background-color: white;
     position: fixed;
+    top: 0;
     padding: 0px 30px;
     width: 100%;
 }
-header div {
+header .div1 {
     display: flex;
     justify-content:space-between;
 }
