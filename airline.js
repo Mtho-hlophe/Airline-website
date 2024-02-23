@@ -708,6 +708,11 @@ flightPaths.innerHTML = ''
 }    
 }
 
+window.addEventListener('load', () => {
+    var loader = document.querySelector('#pageLoader')
+        loader.style.display = 'none'
+})
+
 function nineInputBoxes() {
 
 errorNotification.innerHTML = ''
@@ -794,11 +799,6 @@ flightPaths.innerHTML = ''
     }
 }    
 }
-
-window.addEventListener('load', () => {
-    var loader = document.querySelector('#pageLoader')
-        loader.style.display = 'none'
-}) 
 
 
 
