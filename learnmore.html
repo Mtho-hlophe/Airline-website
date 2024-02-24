@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hlophe airline info</title>
+    <style>
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+body {
+   background-color: whitesmoke;
+   padding: 0;
+   margin: 0;
+}
+#menu {
+    position: fixed;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+    width: 100%;
+    top: 0;
+    background-color: white;
+    z-index: 101;
+    display: none;
+    animation: showMenu 1s;
+}
+@keyframes showMenu {
+    from{margin-left: -300px;
+         opacity: 0;}
+    to{margin-left: 0px;
+       opacity: 1;}
+}
+#menu img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+#menu ul {
+    text-align: center;
+}
+#menu li {
+    padding: 5px;
+    color: black;
+    list-style: none;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 0% 4%;
+    background-color: white;
+}
+header .div1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;    
+}
+header img {
+    width: 70px;
+    height: 50px;   
+}
+section {
+    margin-top: 70px;
+} 
+section div h2 {
+    text-align: center; 
+    color: grey;
+}
+section div p {
+    margin: 15px 10%;
+}
+section button {
+    margin: 100px 10%;
+    padding: 20px;
+    text-align: center;
+}
+
+@media( max-width: 540px ) {
+       
+    header #menuIcon {
+        width: 50px;
+        height: 40px;   
+    }
+    header #logo {
+        width: 50px;
+        height: 40px;
+    }
+
+}
+    </style>
+</head>
+<body>
+    <div id="menu">
+        <img id="closeMenuBt" src="exit-full-screen.png" alt="">
+        <ul>
+            <a href="#about"><li>About us</li></a>
+            <li>Our services</li>
+            <a href="bookhotel.html"><li>Book hotel</li></a>
+            <a href="carRent.html"><li>Car rental</li></a>
+            <a href="driver.html"><li>Find driver</li></a>
+            <a href="tours.html"><li>Vacation</li></a>
+            <a href=""><li>Visit country</li></a>
+            <a href=""><li>Flights</li></a>
+            <a href=""><li>Meet people</li></a>
+        </ul>
+    </div>
+
+    <header>
+        <div class="div1">
+            <div><a href="home.html"><img id="logo" src="IMG_20240202_141950.jpg" alt=""></a></div>
+            <img id="menuIcon" src="bars-staggered.png">
+        </div>       
+    </header>
+    
+    <section>
+        <div>
+            <h2>Hlophe Airline group</h2>
+            <p>
+              where innovation meets excellence! Discover how our cutting-edge travel experience can transform your business.
+              Explore our tailored services, advanced technologies, and a commitment to your success. 
+              Learn more about how we can elevate your operations and propel you towards unparalleled growth. 
+              Your success story begins here.
+            </p>
+            <p>
+              Embark on a journey of business transformation with our business class travel.
+              Uncover the power of our advanced solutions designed to elevate your operations. 
+              From tailored services to cutting-edge technologies, we're dedicated to driving your success. Explore more about what sets us apart and how we can empower your growth.
+              Your next chapter of success awaits
+            </p>
+            <p>
+              Delve deeper into the possibilities for your business with us. 
+              Our comprehensive suite of services and state-of-the-art technologies are geared towards propelling your success. 
+              Learn more about our commitment to innovation, tailored solutions, and unwavering dedication to your growth. 
+              uncover the full potential of partnering with us
+            </p>
+            <p>
+              Embark on a journey of business transformation with our business class travel.
+              Uncover the power of our advanced solutions designed to elevate your operations. 
+              From tailored services to cutting-edge technologies, we're dedicated to driving your success. Explore more about what sets us apart and how we can empower your growth.
+              Your next chapter of success awaits
+            </p>
+        </div>
+            <a href="home.html"><button>Home page</button></a>
+    </section>
+    
+    <script >
+        
+var menu = document.querySelector('#menu')
+var closeMenuBtn = document.querySelector('#closeMenuBt')
+var menuIcon = document.querySelector('#menuIcon')
+
+ menuIcon.addEventListener('click', showMenu)
+ closeMenuBtn.addEventListener('click', showMenu) 
+
+function showMenu() {
+    if( menu.style ) {
+        if(menu.style.display == 'none' || menu.style.display == '') {
+            menu.style.display = 'block'
+        }
+        else {
+            menu.style.display = 'none'
+        }
+    }
+}
+        
+    </script>
+</body>
+</html>
