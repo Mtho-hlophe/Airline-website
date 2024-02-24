@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hlophe airline info</title>
+    <link rel="stylesheet" href="learnmore.css">
+</head>
+<body>
+    <div id="menu">
+        <img id="closeMenuBt" src="exit-full-screen.png" alt="">
+        <ul>
+            <a href="#about"><li>About us</li></a>
+            <li>Our services</li>
+            <a href="bookhotel.html"><li>Book hotel</li></a>
+            <a href="carRent.html"><li>Car rental</li></a>
+            <a href="driver.html"><li>Find driver</li></a>
+            <a href="tours.html"><li>Vacation</li></a>
+            <a href=""><li>Visit country</li></a>
+            <a href=""><li>Flights</li></a>
+            <a href=""><li>Meet people</li></a>
+        </ul>
+    </div>
+
+    <header>
+        <div class="div1">
+            <div><a href="home.html"><img id="logo" src="IMG_20240202_141950.jpg" alt=""></a></div>
+            <img id="menuIcon" src="bars-staggered.png">
+        </div>       
+    </header>
+    
+    <section>
+        <div>
+            <h2>Hlophe Airline group</h2>
+            <p>
+              where innovation meets excellence! Discover how our cutting-edge travel experience can transform your business.
+              Explore our tailored services, advanced technologies, and a commitment to your success. 
+              Learn more about how we can elevate your operations and propel you towards unparalleled growth. 
+              Your success story begins here.
+            </p>
+            <p>
+              Embark on a journey of business transformation with our business class travel.
+              Uncover the power of our advanced solutions designed to elevate your operations. 
+              From tailored services to cutting-edge technologies, we're dedicated to driving your success. Explore more about what sets us apart and how we can empower your growth.
+              Your next chapter of success awaits
+            </p>
+            <p>
+              Delve deeper into the possibilities for your business with us. 
+              Our comprehensive suite of services and state-of-the-art technologies are geared towards propelling your success. 
+              Learn more about our commitment to innovation, tailored solutions, and unwavering dedication to your growth. 
+              uncover the full potential of partnering with us
+            </p>
+            <p>
+              Embark on a journey of business transformation with our business class travel.
+              Uncover the power of our advanced solutions designed to elevate your operations. 
+              From tailored services to cutting-edge technologies, we're dedicated to driving your success. Explore more about what sets us apart and how we can empower your growth.
+              Your next chapter of success awaits
+            </p>
+        </div>
+            <a href="home.html"><button>Home page</button></a>
+    </section>
+    
+    <script >
+        
+var menu = document.querySelector('#menu')
+var closeMenuBtn = document.querySelector('#closeMenuBt')
+var menuIcon = document.querySelector('#menuIcon')
+
+ menuIcon.addEventListener('click', showMenu)
+ closeMenuBtn.addEventListener('click', showMenu) 
+
+function showMenu() {
+    if( menu.style ) {
+        if(menu.style.display == 'none' || menu.style.display == '') {
+            menu.style.display = 'block'
+        }
+        else {
+            menu.style.display = 'none'
+        }
+    }
+}
+        
+    </script>
+</body>
+</html>
